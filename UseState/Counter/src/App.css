@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.counter-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  height: 100vh;
+}
+
+.counter-Wrapper .counter-text h1{
+  font-size: 4rem;
+}
+
+.counter-btn--wrapper{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.counter-btn--wrapper .counter-increment button,
+.counter-btn--wrapper .counter-decrement button{
+  padding: 10px;
+  border-radius: 20px;
+  border: unset;
+  background-color: azure;
+  color: black;
+}
+
+.counter-btn--wrapper .counter-increment button:hover,
+.counter-btn--wrapper .counter-decrement button:hover{
+  background-color: black;
+  color: white;
+}
