@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.page.light{
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.page.dark{
+  background-color: #242424;
+  height: 100vh;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.navigation .site-logo img{
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.navigation .mode{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navigation .mode button {
+  background: transparent;
+  border: unset;
+  cursor: pointer;
+}
+
+.navigation .mode button img{
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+  
+}
