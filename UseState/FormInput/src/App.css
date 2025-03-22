@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-wrapper{
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-wrapper input {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 32px;
+}
+
+.form-wrapper p{
+  margin-top: 24px;
+  text-align: left;
+}
